@@ -1,0 +1,11 @@
+.middle{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-color: #b4b3b3;
+    padding: 0.5rem;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

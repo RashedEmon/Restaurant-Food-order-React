@@ -1,0 +1,50 @@
+.orderPlacement{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /* display: none; */
+    z-index: 1;
+}
+.mainSection{
+    position: relative;
+    width: 50vw;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 1);
+    top: 20vh;
+    left: 25vw;   
+    z-index: 10;
+}
+.orderPlacementHeader{
+    width: 50vw;
+    height: 5vh;
+    background-color: grey;
+}
+.orderPlacementHeader>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 0px 1rem;
+    
+}
+.orderPlacementHeader>div>button{
+    border: none;
+    outline: none;
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+}
+.orderPlacementSubSection{
+    padding: 2rem;
+    background-color: rgb(173, 212, 173);
+    height: 55vh;
+    overflow-y: auto;
+}
+.tableName{
+   outline: none;
+   border: none;
+   
+}
